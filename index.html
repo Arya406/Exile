@@ -1,104 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bear Legal - The Order</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bear Legal - The Order</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-    <!-- Hero Section -->
-    <header class="hero-section">
-        <div class="video-background">
-            <video autoplay muted loop playsinline class="bg-video">
-                <source src="Thunderstorm_Video_Generation.mp4" type="video/mp4">
-            </video>
-            <div class="overlay"></div>
-        </div>
-        <div class="blackbox"></div>
+  <!-- VIDEO BACKGROUND -->
+  <div class="video-background">
+    <video autoplay muted loop playsinline>
+      <source src="Thunderstorm_Video_Generation.mp4" type="video/mp4" />
+    </video>
+    <div class="overlay"></div>
+  </div>
 
-        <nav class="navbar-container">
-            <!-- Using the image as the main brand header -->
-            <div class="nav-wrapper">
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <img src="NAVBAR-removebg-preview.png" alt="Navbar" />
+    <div class="nav-links">
+      <a href="#hero">Home</a>
+      <a href="#about">Character</a>
+      <a href="#gallery">Memes</a>
+      <a href="#rankings">Rankings</a>
+      <a href="#links">Links</a>
+      <a href="#buy">Buy</a>
+    </div>
+  </nav>
 
-                <img src="NAVBAR-removebg-preview.png" alt="Bear Legal Navigation" class="nav-image">
-                <div class="nav-buttons">
-                    <div class="nav-group left">
-                        <a href="#hero" class="nav-btn-home" aria-label="Home"></a>
-                        <a href="#about" class="nav-btn" aria-label="Character"></a>
-                        <a href="#gallery" class="nav-btn" aria-label="Memes"></a>
-                    </div>
-                    <div class="nav-group right">
-                        <a href="#rankings" class="nav-btn" aria-label="Rankings"></a>
-                        <a href="#links" class="nav-btn" aria-label="Links"></a>
-                        <a href="#buy" class="nav-btn" aria-label="Buy"></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-images">
+      <img src="Elonbear.png" alt="Bear" />
+      <img src="Bearly.png" alt="Bear" />
+      <img src="Elonbear.webp" alt="Bear" />
+    </div>
+  </section>
 
-        <div class="hero-content">
+  <!-- ABOUT -->
+  <section id="about" class="feature">
+    <div class="feature-text">
+      <h2>The Bear Legacy</h2>
+      <p>
+        We are the guardians of the untamed. Through storm and fire, we stand resilient.
+        Explore our history and witness the power of the order.
+      </p>
+    </div>
+    <div class="feature-media">
+      <video autoplay muted loop playsinline>
+        <source src="bearconvert.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </section>
 
-            <div><img src="Elonbear.png" alt="" class="hero-bear-img"></div>
-            <div><img src="Bearly.png" alt="Bearly" class="hero-bear-img"></div>
-            <div><img src="Elonbear.webp" alt="" class="hero-bear-img"></div>
+  <!-- GALLERY -->
+  <section id="gallery" class="gallery">
+    <h2>The Roster</h2>
+    <div class="gallery-grid">
+      <div class="card">
+        <img src="bear.jpg" />
+        <span>Vanguard</span>
+      </div>
+      <div class="card">
+        <img src="bear2.jpg" />
+        <span>Sentinel</span>
+      </div>
+      <div class="card">
+        <img src="bear3.jpg" />
+        <span>Warlord</span>
+      </div>
+    </div>
+  </section>
 
-        </div>
-    </header>
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2024 Bear Legal. All Rights Reserved.</p>
+  </footer>
 
-    <!-- About / Video Section -->
-    <section id="about" class="feature-section">
-        <div class="section-container">
-            <div class="text-column slide-in-left">
-                <h2>The Bear Legacy</h2>
-                <p>We are the guardians of the untamed. Through storm and fire, we stand resilient. Explore our history
-                    and witness the power of the order.</p>
-            </div>
-            <div class="media-column slide-in-right">
-                <video autoplay muted loop playsinline class="card-video">
-                    <source src="bearconvert.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section class="gallery-section">
-        <h2 class="section-title fade-in-scroll">The Roster</h2>
-        <div class="gallery-grid">
-            <div class="gallery-item fade-in-scroll">
-                <img src="bear.jpg" alt="Bear Character 1">
-                <div class="caption">
-                    <h3>Vanguard</h3>
-                </div>
-            </div>
-            <div class="gallery-item fade-in-scroll">
-                <img src="bear2.jpg" alt="Bear Character 2">
-                <div class="caption">
-                    <h3>Sentinel</h3>
-                </div>
-            </div>
-            <div class="gallery-item fade-in-scroll">
-                <img src="bear3.jpg" alt="Bear Character 3">
-                <div class="caption">
-                    <h3>Warlord</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Bear Legal. All Rights Reserved.</p>
-    </footer>
-
-    <script src="app.js"></script>
+  <script src="app.js"></script>
 </body>
-
 </html>
