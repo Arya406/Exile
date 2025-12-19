@@ -428,7 +428,7 @@ footer {
     .hero-content {
         margin-top: 180px;
         /* Reduced from desktop large margin */
-        flex-direction: column;
+        flex-direction: row;
         /* Stack images on mobile */
         gap: 20px;
     }
