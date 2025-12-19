@@ -80,9 +80,67 @@ img {
 .nav-image {
     width: 100%;
     max-width: 1000px;
-    /* Limit size */
     height: auto;
     filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5));
+    display: block;
+}
+
+.nav-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-buttons {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.nav-group {
+    position: absolute;
+    bottom: 18%;
+    /* Positioned up to cover text */
+    width: 35%;
+    /* Width for 3 buttons */
+    height: 12%;
+    /* Height of click zone */
+    display: flex;
+    justify-content: space-between;
+    pointer-events: auto;
+}
+
+.nav-group.left {
+    left: 9.4%;
+    
+}
+
+.nav-group.right {
+    right: 9.4%;
+}
+
+.nav-btn {
+    margin-top: 10px;
+    display: block;
+    
+    width: 29%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all 0.2s ease;
+    
+    /* Red debug border removed for production, but can be added back if needed */
+    /* border: 1px solid red; background: rgba(255,0,0,0.2); */
+}
+
+.nav-btn:hover {
+    box-shadow: 0 0 10px var(--primary-gold), inset 0 0 10px var(--primary-gold);
+    background: rgba(197, 160, 89, 0.2);
 }
 
 .hero-content {
