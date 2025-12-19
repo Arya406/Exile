@@ -434,7 +434,9 @@ footer {
     }
 
     .hero-bear-img {
+        width: 10rem;
         max-width: 200px;
+        height: 10rem;
         /* Smaller images on mobile */
     }
 
@@ -472,9 +474,17 @@ footer {
     }
 
     .nav-btn {
-        font-size: 0.7rem;
-        margin-top: 3.3rem;        /* Smaller text for buttons */
+        font-size: 0.3rem;
+        margin-top: 3.3rem;
+                /* Smaller text for buttons */
     }
+    .nav-group.left {
+    left: 6%;
+
+}
+
+.nav-group.right {
+    right :6%
 }
 
 @media (max-width: 480px) {
@@ -494,4 +504,5 @@ footer {
     .gallery-section {
         padding: 60px 20px;
     }
+}
 }
